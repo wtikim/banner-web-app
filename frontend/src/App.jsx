@@ -4,7 +4,7 @@ function App() {
   const [message, setMessage] = useState("");
 
   useEffect(() => {
-    fetch("https://zany-doodle-q7j9r47j9j65fxp65-4000.app.github.dev/api/hello")
+    fetch("https://banner-web-app-1.onrender.com/api/hello")
       .then(res => res.json())
       .then(data => setMessage(data.message));
   }, []);
